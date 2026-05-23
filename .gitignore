@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+!**/example_*.csv
+
+# Model artifacts
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# SentencePiece models
+*.model
+*.vocab
+
+# Environment
+.env
+
+# Claude Code
+CLAUDE.md
+.claude/
